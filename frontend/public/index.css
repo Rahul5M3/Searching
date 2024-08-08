@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .navigation {
+    float: right; /* Or use flexbox for better layout */
+  }
+  
+  .navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .main {
+    padding-bottom: 50px;
+  }
+  
+  .hero {
+    background-image: url("hero-image.jpg"); /* Replace with your hero image */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .search-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .featured-listings,
+  .services {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  
+  .featured-listings h2,
+
+  #search-field {
+    margin-top: 10px; 
+  }
+
+  #search-field input {
+    width: 300px;
+    height: 40px;
+    padding: 3px; 
+  }
+
+  #search-field button {
+    width: 80px;
+    height: 50px;
+    padding: 5px; 
+  }

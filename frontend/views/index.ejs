@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">Search</a>
+      <nav class="navigation">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="container">
+        <button class="search-button">Search Now</button>
+        <form action="/searched_query" method="post">
+            <div id="search-field" style="display: none;">
+                <input name="query" type="text" placeholder="Enter your search query...">
+                <button type="submit">SUBMIT</button>
+            </div>
+        </form>  
+      </div>
+    </section>
+
+  </main>
+
+  <Script src="/index.js"></Script>
+
+</body>
+</html>

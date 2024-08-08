@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="result.css">
+    <title>Data</title>
+</head>
+<body>
+    <section>
+        <!--for demo wrap-->
+        <!-- <h1>Data</h1> -->
+        <div class="tbl-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>S.NO</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>City</th>
+                <th>Bio</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="tbl-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+                <% count=1 %>
+    <% for(let i=0; i<data.length; i++) { %>            
+              <tr>
+                <td><%=count++%></td>
+                <td><%=data[i].Name%></td>
+                <td><%=data[i].Age%></td>
+                <td><%=data[i].Email%></td>
+                <td><%=data[i].City%></td>
+                <td><%=data[i].Bio%></td>
+              </tr>
+    <% } %>          
+            </tbody>
+          </table>
+        </div>
+      </section>
+      
+      
+      <!-- follow me template -->
+      <div class="made-with-love">
+        
+      </div>
+</body>
+</html>
